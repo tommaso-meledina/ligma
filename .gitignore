@@ -1,0 +1,20 @@
+# Binary
+ligma
+
+# Test coverage
+coverage.out
+coverage.html
+
+# Dependencies
+vendor/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
