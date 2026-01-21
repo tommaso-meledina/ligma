@@ -47,15 +47,15 @@ Run `ligma <cmd> --help` for all flags.
 | Code | Meaning |
 |------|---------|
 | `0` | Success |
-| `1` | Usage (invalid flags, malformed args) |
-| `2` | Not found (e.g. unknown license ID) |
-| `3` | I/O or network (e.g. SPDX fetch or file write failure) |
+| `1` | Usage error (invalid flags, malformed args) |
+| `2` | Not found error (e.g. unknown license ID) |
+| `3` | I/O or network error (e.g. SPDX fetch or file write failure) |
 
 ---
 
 ## Configuration (optional)
 
-You can put a `config.json` in `~/.ligma/` to set a default `favorite` (for `write` with no args), `cache_ttl`, SPDX list/details URLs, and aliases. List and details are cached under `~/.ligma/_cache/`. Run `ligma <cmd> --help` or see the repository for details.
+The program creates a `config.json` file in `~/.ligma/`; you can uodate it in order to set a default `favorite` license ID (for calling `ligma write` with no args), `cache_ttl`, SPDX list/details URLs, and aliases. List and details are cached under `~/.ligma/_cache/`. Run `ligma <cmd> --help` or see the repository for details.
 
 ---
 

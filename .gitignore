@@ -15,6 +15,14 @@ vendor/
 *.swo
 *~
 
+# out files
+*.out
+
+
 # OS
 .DS_Store
 Thumbs.db
+
+# Cursor and BMAD
+.cursor
+_bmad
