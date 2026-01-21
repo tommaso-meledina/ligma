@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A small CLI to list, view, and write SPDX licenses. For OSS maintainers who need the right license in a new project without copy‑pasting from the web—data comes from the [official SPDX JSON](https://github.com/spdx/license-list-data/tree/main/json).
+A small CLI to list, view, and write SPDX licenses. For OSS maintainers who need the right license in a new project without copy‑pasting from the web (data comes from the [official SPDX JSON](https://github.com/spdx/license-list-data/tree/main/json)).
 
 ```bash
 ligma get MIT
