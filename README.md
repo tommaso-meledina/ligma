@@ -17,7 +17,7 @@ ligma ls --popular
 **From source** (requires [Go 1.25+](https://go.dev/dl/)):
 
 ```bash
-git clone https://github.com/tom/ligma.git /tmp/ligma && cd /tmp/ligma && go build -o ligma . && sudo mv ligma /usr/local/bin/ligma
+git clone https://github.com/tommaso-meledina/ligma.git /tmp/ligma && cd /tmp/ligma && go build -o ligma . && sudo mv ligma /usr/local/bin/ligma
 ```
 
 ---
